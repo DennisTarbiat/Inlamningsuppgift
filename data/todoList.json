@@ -1,1 +1,64 @@
-
+{
+  "todoList": [
+    {
+      "priority": 1,
+      "id": 1,
+      "title": "Tvätta kläder",
+      "completed": false
+    },
+    {
+      "priority": 1,
+      "id": 2,
+      "title": "Diska",
+      "completed": false
+    },
+    {
+      "priority": 1,
+      "id": 3,
+      "title": "Dammsuga vardagsrummet",
+      "completed": false
+    },
+    {
+      "priority": 1,
+      "id": 4,
+      "title": "Vattna blommorna",
+      "completed": true
+    },
+    {
+      "priority": 1,
+      "id": 5,
+      "title": "Tanka bilen",
+      "completed": false
+    },
+    {
+      "priority": 1,
+      "id": 6,
+      "title": "Laga mat",
+      "completed": false
+    },
+    {
+      "priority": 1,
+      "id": 7,
+      "title": "Måla staketet",
+      "completed": false
+    },
+    {
+      "priority": 1,
+      "id": 8,
+      "title": "Klippa gräset",
+      "completed": true
+    },
+    {
+      "priority": 1,
+      "id": 9,
+      "title": "Bädda sängen",
+      "completed": false
+    },
+    {
+      "priority": 1,
+      "id": 10,
+      "title": "Rasta Hunden",
+      "completed": true
+    }
+  ]
+}
