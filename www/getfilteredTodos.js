@@ -1,3 +1,10 @@
+/**
+ * Takes a list and filters it according to the filterBy parameter
+ * Custom alternative to array.filter()
+ * @param {array} todoList Array of todos
+ * @param {string} filterBy What to filter by
+ * @returns {array} Filtered array
+ */
 export function getfilteredTodos(todoList, filterBy) {
   const filteredArray = [];
 
