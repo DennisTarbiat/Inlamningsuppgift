@@ -5,7 +5,7 @@
  * @param {string} filterBy What to filter by
  * @returns {array} Filtered array
  */
-export function getfilteredTodos(todoList, filterBy) {
+export function getFilteredTodos(todoList, filterBy) {
   const filteredArray = [];
 
   for (const todo of todoList) {
