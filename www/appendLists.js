@@ -3,7 +3,9 @@
  * @param {any[]} completedTodos
  * @param {any[]} uncompletedTodos
  */
+
 export function appendLists(completedTodos, uncompletedTodos) {
+
   //Creates and appends a "h1" element with description of the users options
   const pageDescription = document.createElement("h1");
   pageDescription.textContent =
@@ -13,6 +15,7 @@ export function appendLists(completedTodos, uncompletedTodos) {
   //Creates and appends a "div" element for completed list
   const completedDiv = document.createElement("div");
   document.body.appendChild(completedDiv);
+
   //Creates and appends a "ul" element for the completed list and sets it "id" to "completed"
   //Also creates and appends a title for the "ul" element
   const completedUl = document.createElement("ul");
@@ -25,6 +28,7 @@ export function appendLists(completedTodos, uncompletedTodos) {
   //Creates and appends a "div" element for uncompleted list
   const uncompletedDiv = document.createElement("div");
   document.body.appendChild(uncompletedDiv);
+  
   //Creates and append a "ul" element for the uncompleted list and sets it "id" to "uncompleted"
   //Also creates and appends a title for the "ul" element
   const uncompletedUl = document.createElement("ul");
